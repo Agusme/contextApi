@@ -8,8 +8,7 @@ Incluye explicaciones, modales con ejemplos de código, UI con TailwindCSS y un 
 [Ver el proyecto desplegado](https://context-api-rho-three.vercel.app/) — ¡Click para explorar la app en acción!
 
 ---
-
-##  Vista previa
+## 📸 Vista previa
 ![Screenshot](https://i.ibb.co/gbGBKHwQ/Captura-de-pantalla-2025-08-21-113959.png)
 
 ## ✨ Características
@@ -22,9 +21,23 @@ Incluye explicaciones, modales con ejemplos de código, UI con TailwindCSS y un 
 - Ejemplo aplicado con **tema claro/oscuro** utilizando Context API.
 
 ## ⚙️ Instalación rápida
-
 ```bash
 git clone https://github.com/Agusme/context-api-practice.git
 cd context-api-practice
 npm install
 npm run dev
+Abrir en el navegador 👉 http://localhost:5173/
+````
+##  🛠️ Tecnologías utilizadas
+- React⚛️
+- Vite ⚡
+- Tailwind 🎨
+- Context API 🌀
+
+## 👩‍💻 Autora
+
+Agustina Mena – Desarrolladora Fullstack
+
+🐙 [GitHub](https://github.com/Agusme)
+
+💼 [LinkedIn](https://www.linkedin.com/in/agustina-mena-169298204/)
