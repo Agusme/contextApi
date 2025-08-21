@@ -9,7 +9,7 @@ Incluye explicaciones, modales con ejemplos de código, UI con TailwindCSS y un 
 
 ---
 ## 📸 Vista previa
-![Screenshot](https://i.ibb.co/gbGBKHwQ/Captura-de-pantalla-2025-08-21-113959.png)
+![Screenshot](./src/assets/vistaprevia.png)
 
 ## ✨ Características
 
