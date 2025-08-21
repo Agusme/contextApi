@@ -9,8 +9,8 @@ export default function Accordion() {
         <div className="join join-vertical bg-base-100 w-full">
   <div className="collapse collapse-arrow join-item border-base-300 border">
     <input type="radio" name="my-accordion-4" defaultChecked />
-    <div className="collapse-title text-xl font-semibold">
- Context API en React
+    <div className="collapse-title text-xl font-semibold transition-transform duration-300 ease-in-out">
+¿Qué es?
 </div>
     <div className="collapse-content">
          <ul className="list-disc pl-6 space-y-2 list-inside marker:text-blue-800">
