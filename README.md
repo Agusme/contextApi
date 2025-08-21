@@ -1,69 +1,30 @@
-# React + TypeScript + Vite
+# ​ Context API – Ejemplo Interactivo en React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Una aplicación práctica para aprender y experimentar con la **Context API** de React.  
+Incluye explicaciones, modales con ejemplos de código, UI con TailwindCSS y un footer fijo.  
 
-Currently, two official plugins are available:
+##  Demo en vivo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Ver el proyecto desplegado](https://context-api-rho-three.vercel.app/) — ¡Click para explorar la app en acción!
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+##  Vista previa
+![Screenshot](https://i.ibb.co/gbGBKHwQ/Captura-de-pantalla-2025-08-21-113959.png)
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## ✨ Características
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+- Explicación clara de qué es Context API.
+- Flujo básico de uso explicado paso a paso.
+- Botones **"Ver más"** que abren un **modal** con explicación + ejemplo.
+- Footer fijo al final de la página con enlaces a GitHub y LinkedIn.
+- Estilos implementados con **TailwindCSS**.
+- Ejemplo aplicado con **tema claro/oscuro** utilizando Context API.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## ⚙️ Instalación rápida
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+```bash
+git clone https://github.com/Agusme/context-api-practice.git
+cd context-api-practice
+npm install
+npm run dev
