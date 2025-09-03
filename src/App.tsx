@@ -15,6 +15,10 @@ function App() {
    </div>
         <Accordion/>
     </div>
+    <div className="flex items-center mx-8 md:mx-32 mb-10 justify-around gap-5 bg-blue-100 w-1/3 rounded-lg p-2">
+      <h2 className="text-xl font-semibold">Más ejemplos</h2>
+   <a href="https://contextapi-agusme.netlify.app/" className="btn btn-primary" target="_blank"> Ver</a>
+    </div>
     <Footer/>
     </div>
   );
